@@ -88,3 +88,12 @@ php artisan serve
 ```
 ## Modelo Lógico
 [![Texto alternativo](./img/modelo_logico.png)](https://github.com/DiegoRivas12)
+
+## Pruebas Base de Datos
+Tenemos los siguientes datos de prueba:
+[![Texto alternativo](./img/datos_prueba.png)](https://github.com/DiegoRivas12)
+Los nombres y apellidos deben ser ingresados en mayúscula, el control se hace mediante un trigger antes de la inserción:
+[![Texto alternativo](./img/nombre_mayuscula.png)](https://github.com/DiegoRivas12)
+
+La generación del correo electrónico es de forma automática con el primer nombre y primer apellido, además de un ID si es que existen posibles repeticiones en el correo:
+[![Texto alternativo](./img/correo_repeticion.png)](https://github.com/DiegoRivas12)
