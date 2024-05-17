@@ -3,5 +3,5 @@ Prerrequisitos:
 Node.js 
 
 
-##Modelo Lógico
+## Modelo Lógico
 [![Texto alternativo](./img/modelo_logico.png)](https://github.com/DiegoRivas12)
