@@ -1,0 +1,13 @@
+.li{
+    background-color: black;
+}
+
+#cuadroUsuario{
+  background-color: rgb(179 57 81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border-color: aquamarine;
+}
+
+
