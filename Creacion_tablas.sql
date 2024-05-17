@@ -1,5 +1,5 @@
 CREATE DATABASE Sistema_Empleados;
-
+USE Sistema_Empleados;
 CREATE TABLE Empleado(
 	id_empleado INT auto_increment,
     primer_nombre VARCHAR(20),#Mayuscula
@@ -7,8 +7,8 @@ CREATE TABLE Empleado(
     primer_apellido VARCHAR(20),
     segundo_apellido VARCHAR(20),
     pais_empleo ENUM('Colombia', 'Estados Unidos') NOT NULL,
-	correo_electronico VARCHAR(300),
-    estado ENUM('Activo') NOT NULL,
+	correo_electronico VARCHAR(300) NOT NULL,
+    estado ENUM('Activo') NULL,
 	numero_identificacion VARCHAR(20),
     fecha_registro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id_empleado)
